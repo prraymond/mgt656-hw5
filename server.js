@@ -5,7 +5,7 @@ app.get('/', function(request, response){
     response.send('crowded-pheasant');
 });
 
-app.get('/crowded-pheasant', function(request, response){
+app.get('/nickname', function(request, response){
     response.send('crowded-pheasant');
 });
 
